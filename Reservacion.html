@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+        <!-- Custom Css -->
+        <link rel="stylesheet" href="estilos.css" type="text/css" />
+
+        <!-- Ionic icons -->
+        <link href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css" rel="stylesheet">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+        <link rel="shortcut icon" href="img/hotel.png" type="image/vnd.microsoft.icon" />
+
+        <title>Hoteles.net</title>
+    </head>
+
+    <body>
+        <!-- inicio NavBar -->
+        <nav class="navbar navbar-default navbar-expand-lg fixed-top custom-navbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon ion-md-menu"></span>
+            </button>
+            <img src="img/logo.jpeg" class="img-fluid nav-logo-mobile" alt="Company Logo">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="container">
+                    <img src="/img/logo.jpeg" class="img-fluid nav-logo-desktop" alt="Company Logo">
+                    <ul class="navbar-nav ml-auto nav-right" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
+                        <li class="nav-item nav-custom-link">
+                            <a class="nav-link" href="Contacto.html">Inicio <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                        </li>
+                        <li class="nav-item nav-custom-link">
+                            <a class="nav-link" href="menuPrincipal.html">Reservaciones <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                        </li>
+                        <li class="nav-item nav-custom-link">
+                            <a class="nav-link" href="controlador/controlador_pedido.php?opcion=1">Lugares <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                        </li>
+                        <li class="nav-item nav-custom-link">
+                            <a class="nav-link" href="controlador/controlador_recojo.php?opcion=1">Contáctanos <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                        </li>
+                        <li class="nav-item nav-custom-link btn btn-demo-small">
+                            <a class="nav-link" href="menuPrincipal.html">Cerrar sesion<i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- fin NavBar -->
+
+        <!-- inicio Marketing -->
+        <section id="marketing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="content-box">
+                            <span>¡!YA CASI</span>
+                            <h2 style="color: #5F4C0B">Reserva el mejor lugar</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <img src="img/madrid.jpg" class="img-fluid" alt="Demo image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fin Marketing -->
+
+        <!--Inicio  Formulario-->
+        <section id="formulario">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="card card-body">
+                        <h3 class="text-center mb-4">Formulario de Reservaciones</h3>
+                        <form action="" method="post">
+                            <label for="Nombre">Nombre completo: </label>
+                            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required><br>
+
+                            <label for="Fecha">Fecha de inicio: </label>
+                            <input type="date" name="fecha_inicio" id="fecha_inicio" required><br>
+
+                            <label for="Lugar">Elige el lugar destino: </label>
+                            <select name="lugar" id="lugar">
+                                <option value="Italia">Hotel Saturnia & International Venezia (Italia)</option>
+                                <option value="Italia">Hotel antiche figure (Italia)</option>
+                                <option value="Italia">Hotel Barocco (Italia)</option>
+                                <option value="España">Hotel el palace, Barcelona (España)</option>
+                                <option value="España">Vincci Soho, Madrid (España)</option>
+                                <option value="España">Rincón de gran vía (España)</option>
+                                <option value="Alemania">Hotel Torbraeu (Alemania)</option>
+                                <option value="Alemania">Grand Hyatt Berlin (Alemania)</option>
+                                <option value="Alemania">Grand Elysee Hotel Hamburg (Alemania)</option>
+                            </select><br>
+
+                            <label for="Plan">Elige tu plan: </label>
+                            <select name="lugar" id="lugar">
+                                <option value="Básico">Plan Básico</option>
+                                <option value="Regular">Plan Regular</option>
+                                <option value="VIP">Plan VIP</option>
+                            </select><br>
+
+                            <label for="Total">Total a pagar: </label>
+                            <input type="text" name="total" placeholder="00.00 €" readonly><br>
+
+                            <button type="submit" class="btn btn-primary w-100" onclick="calcular()">Reservar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Fin  Formulario-->
+
+        <!-- inicio footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>Numeros de contacto</h5>
+                        <ul>
+                            <li><a href="246810">Atención a cliente</a></li>
+                            <li><a href="mailto:vd180401@gmail.com" class="external-liniks">Gerente</a></li>
+                            <li><a href="mailto:morenoedson023@gmail.com" class="external-links">Socios</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Números de Emergencía</h5>
+                        <ul>
+                            <li><a href="#">800-XXX-XXX (MX)</a></li>
+                            <li><a href="#">1-XXX-XXX-XXXX (EUA)</a></li>
+                            <li><a href="#">0-XXX-XXX-XXXX (RU)</a></li>
+                            <li><a href="#">0-XXX-XXX-XXXX (BR)</a></li>
+                            <li><a href="#">+52-XXX-XXX-XXXX (OTROS PAÍSES)</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Nuestros beneficios</h5>
+                        <ul>
+                            <li><a href="#">Descuentos</a></li>
+                            <li><a href="#">Plan de viajes</a></li>
+                            <li><a href="#">Suscripciones</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Descuentos</h5>
+                        <p>Los clientes registrados tendrán un descuento según las veces que hagan reservaciones</p>
+                        <p><a href="mailto:vd180401@gmail.com" class="external-links">vd180401@gmail.com</a></p>
+                    </div>
+                </div> 
+                <div class="divider"></div>
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <a href="#"><i class="icon ion-logo-facebook"></i></a>
+                        <a href="#"><i class="icon ion-logo-instagram"></i></a>
+                        <a href="#"><i class="icon ion-logo-twitter"></i></a>
+                        <a href="#"><i class="icon ion-logo-youtube"></i></a>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <small>2024 &copy; Todos los derechos reservados - Grupo Ingeniería en Sistemas Computacionales</small>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- fin Footer -->
+
+        <!-- External JavaScripts -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    </body>
+</html>

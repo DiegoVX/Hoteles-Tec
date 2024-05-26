@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+         <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+        <!-- Custom Css -->
+        <link rel="stylesheet" href="estilos.css" type="text/css" />
+
+        <!-- Ionic icons -->
+        <link href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css" rel="stylesheet">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+        <link rel="shortcut icon" href="img/hotel.png" type="img/vnd.microsoft.icon" />
+
+        <title>Hoteles.net</title>
+    </head>
+    <body>
+        
+        <!-- inicio NavBar -->
+        <nav class="navbar navbar-default navbar-expand-lg fixed-top custom-navbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon ion-md-menu"></span>
+            </button>
+            <img src="img/logo.jpeg" class="img-fluid nav-logo-mobile" alt="Company Logo">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="container">
+                    <img src="img/logo.jpeg" class="img-fluid nav-logo-desktop" alt="Company Logo">
+                    <ul class="navbar-nav ml-auto nav-right" data-easing="easeInOutExpo"    data-speed="1250" data-offset="65">
+                        <li class="nav-item nav-custom-link">
+                        <a class="nav-link" href="menuPrincipal.html">Inicio <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                        </li>
+                        <li class="nav-item nav-custom-link">
+                        <a class="nav-link" href="#marketing">Reservaciones <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                        </li>
+                        <li class="nav-item nav-custom-link">
+                        <a class="nav-link" href="#testimonials">Lugares <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                        </li>
+                        <li class="nav-item nav-custom-link">
+                        <a class="nav-link" href="#pricing">Contáctanos <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                        </li>
+                        <li class="nav-item nav-custom-link btn btn-demo-small">
+                        <a class="nav-link" href="login.html">Cerrar sesión <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- fin NavBar -->
+
+        <!-- inicio destinos -->
+        <section id="pricing">
+            <div class="container">
+                <div class="title-block">
+                    <h2>Destinos populares</h2>
+                    <p>Distintos paises con vistas increibles.</p>
+                    <input type="search" name="buscar" placeholder="Busca un lugar"> 
+                    <button type="search" style="cursor: pointer;">buscar</button>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="pricing-box">
+                            <h3 class="demo">Venecia, Italia</h3>
+                            <div>
+                                <img src="img/ven1.jpg" height="150" width="250" alt="">
+                            </div>
+                            <p>Venecia es un pez que decidió dormir en el Adriático y luchar contra las aguas. Las escamas son 120 pequeñas islas, comunicadas entre sí por cientos de puentes y canales. Un sueño que cualquier viajero debería conocer.</p>
+                            <!-- 
+                            <div class="text-center">
+                            <a href="#" class="btn btn-demo">Comprar</a>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="pricing-box">
+                            <h3>Alemania, munich</h3>
+                            <div>
+                                <img src="img/al1.jpg" height="150" width="250" alt="">
+                            </div>
+                            <p>Una ciudad cosmopolita con corazón, encantadora y relajada, animada y a la vez soñadora: Munich es la capital del estilo de vida de Alemania y tiene una de las plazas más bonitas del país.</p>
+                            <!--
+                            <div class="text-center">
+                            <a href="#" class="btn btn-buy">Comprar</a>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="pricing-box">
+                            <h3>Madrid, España</h3>
+                            <div>
+                                <img src="img/madrid.jpg" height="150" width="250" alt="">
+                            </div>
+                            <p>Madrid, alegre y despierta a todas horas, es famosa por ser una ciudad abierta en la que se mezcla gente de todo tipo y de cualquier lugar.</p>
+                            <!--
+                            <div class="text-center">
+                            <a href="#" class="btn btn-buy">Comprar</a>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="pricing-box">
+                            <h3 class="demo">Plaza España, Sevilla</h3>
+                            <div>
+                                <img src="img/sevilla.jpg" height="150" width="250" alt="">
+                            </div>
+                            <p>Este conjunto arquitectónico ubicado en el Parque de María Luisa se construyó entre 1914 y 1929 como edificio principal de la Exposición Iberoamericana de 1929. Merece la pena invertir unas horas en contemplar al aire libre cada uno de los detalles que lo componen.</p>
+                            <!-- 
+                            <div class="text-center">
+                            <a href="#" class="btn btn-demo">Comprar</a>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="pricing-box">
+                            <h3 class="demo">Coliseo de Roma, Italia</h3>
+                            <div>
+                                <img src="img/roma.jpg" height="150" width="250" alt="">
+                            </div>
+                            <p>El nombre con el que se inauguró la obra fue “Anfiteatro Flavio”, en honor a Vespasiano. Sin embargo, se cree que el cambio del nombre se debió a la estatua Coloso de Nerón, de 40 metros de altura, ubicada muy cerca del anfiteatro hoy conocido como el Coliseo de Roma.</p>
+                            <!-- 
+                            <div class="text-center">
+                            <a href="#" class="btn btn-demo">Comprar</a>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="pricing-box">
+                            <h3 class="demo">Puerta de Brandeburgo, Alemania</h3>
+                            <div>
+                                <img src="img/alemania.jpg" height="150" width="250" alt="">
+                            </div>
+                            <p>La puerta más famosa de Berlín y de Alemania fue concluida en 1791. Fue edificada durante el reinado de Federico II de Prusia por el arquitecto Carl Gotthard Langhans en uno de los 18 accesos de la muralla de Berlín, tomando como modelo la entrada de la Acrópolis de Atenas.</p>
+                            <!-- 
+                            <div class="text-center">
+                            <a href="#" class="btn btn-demo">Comprar</a>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fin destinos -->
+
+        <!-- inicio footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>Hoteles.net</h5>
+                        <ul>
+                            <li><a href="#">Historia</a></li>
+                            <li><a href="#">Participación comunitaria</a></li>
+                            <li><a href="#">Innovaciones</a></li>
+                            <li><a href="#">Mejoras</a></li>
+                            <li><a href="#">ambiente laboral</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Nuestros beneficios</h5>
+                        <ul>
+                            <li><a href="#">Descuentos</a></li>
+                            <li><a href="#">Plan de viajes</a></li>
+                            <li><a href="#">Suscripciones</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Descuentos</h5>
+                        <p>Los clientes registrados tendrán un descuento según las veces que hagan reservaciones</p>
+                        <p><a href="mailto:vd180401@gmail.com" class="external-links">vd180401@gmail.com</a></p>
+                    </div>
+                </div> 
+                <div class="divider"></div>
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <a href="#"><i class="icon ion-logo-facebook"></i></a>
+                            <a href="#"><i class="icon ion-logo-instagram"></i></a>
+                            <a href="#"><i class="icon ion-logo-twitter"></i></a>
+                            <a href="#"><i class="icon ion-logo-youtube"></i></a>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                        <small>2024 &copy; Todos los derechos reservados - Grupo Ingeniería en Sistemas Computacionales</small>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- fin footer -->
+
+        <!-- JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    </body>
+</html>
