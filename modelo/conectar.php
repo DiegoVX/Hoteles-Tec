@@ -4,7 +4,7 @@ class conectar {
     public static function conexion(){
         try{
             //PDO es una librería
-            $cnx = new PDO('mysql:host=localhost;dbname=panaderia','root','');
+            $cnx = new PDO('mysql:host=localhost;dbname=hoteldb','root','');
             $cnx -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $cnx -> exec("SET CHARACTER SET UTF8");
             

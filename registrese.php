@@ -7,14 +7,16 @@
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <link href="img/block.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+        <link href="img/hotel.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
         
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <title>Registro de usuario</title>
     </head>
     <script>
 
         function cancelar(){
-            location.href="Panaderia.html"
+            location.href="menuPrincipal.html"
         
         }
 
@@ -153,20 +155,20 @@
         <div id="id01" class="modal">
             <form class="modal-content" action="" method="POST">
                 <div class="container">
-                    <img src="img/cesta_pan.jpg" alt="70" width="150"/>
-                    <h4>Express Bakery</h4>
+                    <img src="img/logo.jpeg" alt="70" width="150"/>
+                    <h4>Hoteles.net</h4>
                     <h2 style="color:cornflowerblue">Registrese</h2>
                     <hr>
                     <div class="row">
                         <div class="col">
-                            <label for=""><b>Tipo de usuario</b></label>
+                            <label for=""><b>Genero</b></label>
                             <select class="form-control" name="txtTipo" id="txtTipo" onchange="caso()">
-                                <option value="1">Tienda</option>
-                                <option value="2">Persona Natural</option>
+                                <option value="1">Masculino</option>
+                                <option value="2">Femenino</option>
                             </select>
                         </div>
                         <div class="col">
-                            <label for=""><b>DNI / RFC</b></label>
+                            <label for=""><b>RFC</b></label>
                             <input type="text" placeholder="Ingrese documento" class="form-control" id="txtNro" name="txtNro" required>
                         </div>
                     </div>
@@ -180,8 +182,6 @@
                             <input type="text" placeholder="Ingrese correo" id="txtCorreo" name="txtCorreo" required>
                         </div>
                     </div>
-                    <label for=""><b>Dirección</b></label>
-                    <input type="text" placeholder="Ingrese dirección" id="txtDir" name="txtDir" required>
                     <div class="row">
                         <div class="col">
                             <label for=""><b>Usuario</b></label>
@@ -212,7 +212,6 @@
             window.onclick = function(event) {
                 if (event.target == modal) {
                     modal.style.display = "index.php";
-
                 }
             }
         </script>

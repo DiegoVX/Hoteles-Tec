@@ -40,13 +40,13 @@
                             <a class="nav-link" href="menu.php">Inicio <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
                         </li>
                         <li class="nav-item nav-custom-link">
-                            <a class="nav-link" href="controlador/controlador_pan.php?opcion=1">Panes <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                            <a class="nav-link" href="controlador/controlador_pan.php?opcion=1">Restaurantes <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
                         </li>
                         <li class="nav-item nav-custom-link">
-                            <a class="nav-link" href="controlador/controlador_pedido.php?opcion=1">Pedidos <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                            <a class="nav-link" href="controlador/controlador_pedido.php?opcion=1">Reserva <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
                         </li>
                         <li class="nav-item nav-custom-link">
-                            <a class="nav-link" href="controlador/controlador_recojo.php?opcion=1">Recojo <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                            <a class="nav-link" href="controlador/controlador_recojo.php?opcion=1">Viaje <i class="icon ion-ios-arrow-forward icon-mobile"e</i></a>
                         </li>
                         <li class="nav-item nav-custom-link">
                             <a class="nav-link" href="controlador/controlador_cliente.php?opcion=1">Clientes <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
@@ -55,7 +55,7 @@
                             <a class="nav-link" href="controlador/controlador_seguridad.php?opcion=2">Usuarios <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
                         </li>
                         <li class="nav-item nav-custom-link">
-                            <a class="nav-link" href="controlador/controlador_foto.php?opcion=1">Subir fotos <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                            <a class="nav-link" href="controlador/controlador_foto.php?opcion=1">Hotel <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
                         </li>
                         <li class="nav-item nav-custom-link btn btn-demo-small">
                             <a class="nav-link" href="Panaderia.html">Logout<i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
@@ -74,7 +74,7 @@
                         <div class="content-box">
                             <span>INTRANET</span>
                             <h2 style="color: #5F4C0B">CENTRO DE DATOS</h2>
-                            <p>Sistema de ventas de canastas de panes</p>
+                            <p>Reserva de hoteles</p>
                         </div>
                     </div>
                     <div class="col-md-7">
@@ -85,61 +85,49 @@
         </section>
         <!-- fin Marketing -->
 
-        <!-- inicio footer -->
-        <footer>
+                <!-- inicio footer -->
+                <footer>
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
-                        <h5>Express Bakery</h5>
+                        <h5>Hoteles.net</h5>
                         <ul>
                             <li><a href="#">Historia</a></li>
                             <li><a href="#">Participación comunitaria</a></li>
                             <li><a href="#">Innovaciones</a></li>
                             <li><a href="#">Mejoras</a></li>
-                            <li><a href="#">Ambiente laboral</a></li>
+                            <li><a href="#">ambiente laboral</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3">
-                        <h5>Nuestros productos</h5>
+                        <h5>Nuestros beneficios</h5>
                         <ul>
-                            <li><a href="#">Pan de trigo</a></li>
-                            <li><a href="#">Pan de centeno</a></li>
-                            <li><a href="#">Pan de maiz</a></li>
-                            <li><a href="#">Pan de semilla</a></li>
-                            <li><a href="#">Canastillas</a></li>
+                            <li><a href="#">Descuentos</a></li>
+                            <li><a href="#">Plan de viajes</a></li>
+                            <li><a href="#">Suscripciones</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3">
                         <h5>Descuentos</h5>
-                        <ul>
-                            <li><a href="#">Canastillas de 100 unidades</a></li>
-                            <li><a href="#">Por antiguedad</a></li>
-                            <li><a href="#">Por volumen de compra</a></li>
-                            <li><a href="#">Promociones fiesta cívicas</a></li>
-                            <li><a href="#">Campañas frecuentes</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <h5>Tiendas</h5>
-                        <p>Los clientes registrados tendrán un descuento según la venta realizadas, a menor devolución mayor descuento</p>
+                        <p>Los clientes registrados tendrán un descuento según las veces que hagan reservaciones</p>
                         <p><a href="mailto:vd180401@gmail.com" class="external-links">vd180401@gmail.com</a></p>
                     </div>
                 </div> 
                 <div class="divider"></div>
-                <div class="row">
-                    <div class="col-md-6 col-xs-12">
-                        <a href="#"><i class="icon ion-logo-facebook"></i></a>
-                        <a href="#"><i class="icon ion-logo-instagram"></i></a>
-                        <a href="#"><i class="icon ion-logo-twitter"></i></a>
-                        <a href="#"><i class="icon ion-logo-youtube"></i></a>
-                    </div>
-                    <div class="col-md-6 col-xs-12">
-                        <small>2023 &copy; Todos los derechos reservados - Grupo Ingeniería en Sistemas Computacionales</small>
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <a href="#"><i class="icon ion-logo-facebook"></i></a>
+                            <a href="#"><i class="icon ion-logo-instagram"></i></a>
+                            <a href="#"><i class="icon ion-logo-twitter"></i></a>
+                            <a href="#"><i class="icon ion-logo-youtube"></i></a>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                        <small>2024 &copy; Todos los derechos reservados - Grupo Ingeniería en Sistemas Computacionales</small>
                     </div>
                 </div>
             </div>
         </footer>
-        <!-- fin Footer -->
+        <!-- fin footer -->
 
         <!-- External JavaScripts -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -1,6 +1,6 @@
 <?php
 
-    include 'http://localhost/panaderia/modelo/modelo_tablas.php';
+    include 'http://localhost/hoteldb/modelo/modelo_tablas.php';
 
     function listado_usuarios(){
         $reg = new modelo_tablas();
